@@ -1,11 +1,11 @@
 {
-  "name": "railroad-diagrams",
+  "name": "tetsudou",
   "version": "1.1.0",
   "description": "A small JS+SVG library for drawing railroad syntax diagrams.",
   "main": "loader.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/loveencounterflow/railroad-diagrams.git"
+    "url": "https://github.com/loveencounterflow/tetsudou.git"
   },
   "keywords": [
     "railroad",
@@ -17,9 +17,9 @@
   "author": "Tab Atkins Jr.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/loveencounterflow/railroad-diagrams/issues"
+    "url": "https://github.com/loveencounterflow/tetsudou/issues"
   },
-  "homepage": "https://github.com/loveencounterflow/railroad-diagrams",
+  "homepage": "https://github.com/loveencounterflow/tetsudou",
   "dependencies": {
     "esm": "^3.2.25"
   }
