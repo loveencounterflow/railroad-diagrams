@@ -1,8 +1,24 @@
+
+
+
+# Tetsudou, a JS Railroad Diagram Generator
+
+
+🚧 Work in progress 🚧
+
+* Fork of the [original](https://github.com/tabatkins/railroad-diagrams).
+* Turned into a CJS module with [`esm`](https://github.com/standard-things/esm).
+* Removed extraneous files and the Python implementation.
+* Smaller changes forthcoming.
+
+
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Railroad-diagram Generator](#railroad-diagram-generator)
+- [Tetsudou, a JS Railroad Diagram Generator](#tetsudou-a-js-railroad-diagram-generator)
+  - [Original Documentation](#original-documentation)
   - [Versions](#versions)
   - [Caveats](#caveats)
   - [License](#license)
@@ -13,8 +29,10 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-Railroad-diagram Generator
-==========================
+# Tetsudou, a JS Railroad Diagram Generator
+
+## Original Documentation
+
 
 <a href="https://github.com/tabatkins/railroad-diagrams/blob/gh-pages/images/rr-title.svg"><img src="https://github.com/tabatkins/railroad-diagrams/raw/gh-pages/images/rr-title.svg?sanitize=true" alt="Diagram(Stack('Generate', 'some'), OneOrMore(NonTerminal('railroad diagrams'), Comment('and more')))" title="Diagram(Stack('Generate', 'some'), OneOrMore(NonTerminal('railroad diagrams'), Comment('and more')))" width=10000></a>
 
