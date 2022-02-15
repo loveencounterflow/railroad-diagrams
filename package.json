@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/tabatkins/railroad-diagrams/issues"
   },
-  "homepage": "https://github.com/tabatkins/railroad-diagrams"
+  "homepage": "https://github.com/tabatkins/railroad-diagrams",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
 }
