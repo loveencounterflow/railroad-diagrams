@@ -19,13 +19,13 @@
 
 - [Tetsudou, a JS Railroad Diagram Generator](#tetsudou-a-js-railroad-diagram-generator)
   - [Original Documentation](#original-documentation)
-  - [Versions](#versions)
-  - [Caveats](#caveats)
-  - [License](#license)
-- [Railroad-Diagram Generator, JS Version](#railroad-diagram-generator-js-version)
-  - [Diagrams](#diagrams)
-  - [Components](#components)
-  - [Options](#options)
+    - [Versions](#versions)
+    - [Caveats](#caveats)
+    - [License](#license)
+  - [Railroad-Diagram Generator, JS Version](#railroad-diagram-generator-js-version)
+    - [Diagrams](#diagrams)
+    - [Components](#components)
+    - [Options](#options)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -47,8 +47,7 @@ There are several railroad-diagram generators out there, but none of them had th
 
 [Here's an online dingus for you to play with and get SVG code from!](https://tabatkins.github.io/railroad-diagrams/generator.html)
 
-Versions
---------
+### Versions
 
 This library is supported both as a JS module and a Python module,
 and the install and use instructions for each
@@ -58,14 +57,12 @@ are in their lang-specific READMEs.
 * [Python-specific README](README-py.md)
 
 
-Caveats
--------
+### Caveats
 
 SVG can't actually respond to the sizes of content; in particular, there's no way to make SVG adjust sizing/positioning based on the length of some text.  Instead, I guess at some font metrics, which mostly work as long as you're using a fairly standard monospace font.  This works pretty well, but long text inside of a construct might eventually overflow the construct.
 
 
-License
--------
+### License
 
 Standard MIT license; see [LICENSE](LICENSE).
 
@@ -74,8 +71,7 @@ I would appreciate attribution, but that is not required by the license.
 If you're doing something cool with it, again I'd appreciate it if you let me know, but that's not required either.
 
 
-Railroad-Diagram Generator, JS Version
-=======================================
+## Railroad-Diagram Generator, JS Version
 
 This is a small library for generating railroad diagrams
 (like what [JSON.org](http://json.org) uses)
@@ -86,8 +82,7 @@ using SVG, with both JS and Python ports.
 see the [main README](https://github.com/tabatkins/railroad-diagrams) for other ports,
 and for more non-JS-specific information.)
 
-Diagrams
---------
+### Diagrams
 
 To use the library,
 include `railroad.css` in your page,
@@ -126,8 +121,7 @@ The Diagram class also has a few methods:
 * `.addTo(parent?)` directly appends the diagram, as an `<svg>` element, to the specified parent element. If you omit the parent element, it instead appends to the script element it's being called from, so you can easily insert a diagram into your document by just dropping a tiny inline `<script>` that just calls `new Diagram(...).addTo()` where you want the diagram to show up.
 
 
-Components
-----------
+### Components
 
 Components are either leaves or containers.
 
@@ -206,8 +200,7 @@ After constructing a Diagram, call `.format(...padding)` on it, specifying 0-4 p
 
 The result can either be `.toString()`'d for the markup, or `.toSVG()`'d for an `<svg>` element, which can then be immediately inserted to the document.  As a convenience, Diagram also has an `.addTo(element)` method, which immediately converts it to SVG and appends it to the referenced element with default paddings. `element` defaults to `document.body`.
 
-Options
--------
+### Options
 
 There are a few options you can tweak,
 in an `Options` object exported from the module.
