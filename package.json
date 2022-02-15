@@ -2,10 +2,10 @@
   "name": "railroad-diagrams",
   "version": "1.1.0",
   "description": "A small JS+SVG library for drawing railroad syntax diagrams.",
-  "main": "railroad-diagrams.js",
+  "main": "loader.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tabatkins/railroad-diagrams.git"
+    "url": "https://github.com/loveencounterflow/railroad-diagrams.git"
   },
   "keywords": [
     "railroad",
@@ -17,9 +17,9 @@
   "author": "Tab Atkins Jr.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tabatkins/railroad-diagrams/issues"
+    "url": "https://github.com/loveencounterflow/railroad-diagrams/issues"
   },
-  "homepage": "https://github.com/tabatkins/railroad-diagrams",
+  "homepage": "https://github.com/loveencounterflow/railroad-diagrams",
   "dependencies": {
     "esm": "^3.2.25"
   }
